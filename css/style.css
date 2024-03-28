@@ -28,14 +28,73 @@ ul {
 li {
     padding-left: 5% ;
     padding-right: 5% ;
+    cursor: pointer;
+    
 }
+
+.connect:hover {
+    background-color: #C07E5B;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.aboutme:hover {
+    background-color: #C07E5B;
+    padding: 10px;
+    border-radius: 5px;
+
+}
+
+.mywork:hover {
+    background-color: #C07E5B;
+    padding: 10px;
+    border-radius: 5px;
+
+}
+
+.dropdown-content {
+    display: none;
+    position:absolute;
+    right: 0;
+    width: 226px;
+    background-color: #C07E5B;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    border-radius: 5px;
+    z-index: 1;
+    cursor: pointer;
+}
+
+
+.dropdown:hover .dropdown-content {
+    display: block;
+    cursor: pointer;
+}
+
+
+.dropdown-content li {
+    list-style: none;
+    padding: 10px;
+    color: black;
+    cursor: pointer;
+    text-align: left;
+
+}
+
+
+.dropdown-content li a {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
 
 img { 
     max-width: 100%; 
 }
 
 .heroImage {
-   padding: 50px;
+   
+padding: 50px;
    margin: 0 auto;
 
   
@@ -61,7 +120,7 @@ button:hover {
     background-color: #A55F3A;
 }
 
-}
+
 .mySkills {
     margin: 20px 0;
 }
@@ -164,6 +223,7 @@ footer {
     text-align: right; 
     
 }
+
 
 @media screen and (max-width: 600px) {
     .flexContainer {
